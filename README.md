@@ -5,3 +5,6 @@ conda create --name flask_api --file py-proj-reqs.txt
 
 # Examples
 001 Simple RESTful API using Python and Flask
+
+Reference:
+https://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask
