@@ -5,6 +5,11 @@ python app.py
 * Restarting with reloader
 ```
 ## Invoke from curl
+To get all task
+```
+curl http://localhost:5000/todo/api/v1.0/tasks
+```
+To get single task
 ```
 curl http://localhost:5000/todo/api/v1.0/tasks/2
 ```
