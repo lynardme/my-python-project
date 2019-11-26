@@ -9,4 +9,4 @@ python app.py
 curl http://localhost:5000/todo/api/v1.0/tasks/2
 ```
 ## Postman
-![post method](https://github.com/lynardme/my-python-project/blob/master/001%20Simple%20RESTful%20API%20using%20Python%20and%20Flask/post.png)
+![post method](https://github.com/lynardme/my-python-project/blob/master/img/001-post.png)
