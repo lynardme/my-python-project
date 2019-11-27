@@ -30,5 +30,9 @@ To delete a task
 ```
 curl -i -X DELETE http://localhost:5000/todo/api/v1.0/tasks/2
 ```
+To invoke a secure function
+```
+curl -u lynard:python -i http://localhost:5000/todo/api/v1.0/tasks/secure
+```
 ## Using Postman
 ![post method](https://github.com/lynardme/my-python-project/blob/master/img/001-post.png)
