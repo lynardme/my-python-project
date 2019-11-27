@@ -1,5 +1,7 @@
 ## Create environment in Anaconda
+```
 conda create --name flask_api --file flask_api_reqs.txt
+```
 
 ## Run the flask
 ```
