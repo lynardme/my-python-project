@@ -39,5 +39,5 @@ def make_public_task(task):
 def get_tasks():
     return jsonify({'tasks': [make_public_task(task) for task in tasks]})
 ```
-## Postman
+## Using Postman
 ![post method](https://github.com/lynardme/my-python-project/blob/master/img/001-post.png)
