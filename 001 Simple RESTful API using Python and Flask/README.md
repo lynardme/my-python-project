@@ -1,3 +1,6 @@
+## Create environment in Anaconda
+conda create --name flask_api --file flask_api_reqs.txt
+
 ## Run the flask
 ```
 python app.py
@@ -12,6 +15,10 @@ curl http://localhost:5000/todo/api/v1.0/tasks
 To get single task
 ```
 curl http://localhost:5000/todo/api/v1.0/tasks/2
+```
+To insert a new task
+```
+curl -i -H "Content-Type: application/json" -X POST -d '{"title":"Read a book"}' http://localhost:5000/todo/api/v1.0/tasks
 ```
 To update a task
 ```
