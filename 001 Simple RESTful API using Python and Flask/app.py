@@ -27,7 +27,7 @@ def get_password(username):
 
 @auth.error_handler
 def unauthorized():
-    return make_response(jsonify({'error': 'Unauthorized access'}), 401)
+    return make_response(jsonify({'error': 'Unauthorized access'}), 403)
 
 @app.route('/todo/api/v1.0/tasks/<int:task_id>', methods=['PUT'])
 def update_task(task_id):
