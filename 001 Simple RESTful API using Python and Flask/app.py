@@ -59,6 +59,7 @@ def get_task(task_id):
         abort(404)
     return jsonify({'tasks': task[0]})
 
+# To get public version of uri
 def make_public_task(task):
     new_task = {}
     for field in task:
